@@ -9,6 +9,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
+    <script src="api.js"></script>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,9 +34,10 @@
                 type="text"
                 class="form-control"
                 placeholder="Nome do user"
+                id="usernameGit"
               />
               <div class="input-group-append">
-                <button type="submit" class="btn btn-outline-primary">
+                <button type="submit" onclick="log()" class="btn btn-outline-primary">
                   <i class="fa fa-search"></i>
                 </button>
               </div>
@@ -50,6 +52,7 @@
             src="https://avatars0.githubusercontent.com/u/51277667?s=400&u=fdaf38d61c6062a9c93186ed2830fe82cc4a24ed&v=4"
             alt="Imagem de perfil"
             class="img-thumbnail rounded"
+            id="gitImage"
           />
         </div>
       </div>
